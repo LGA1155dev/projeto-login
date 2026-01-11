@@ -43,7 +43,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/tela-login.jpg); 
+    background: #5f2c82 url(../imagens/login.jpg); 
     background-size: cover;
     height: 200px;
 }
