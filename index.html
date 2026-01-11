@@ -32,7 +32,23 @@
                 <a href="esqueci.html">
                     Esqueci a senha <i class="material-icons">mail</i></a>
             </div>
+
+            <div class="msg">
+                <p id="erro"></p>
+            </div>
         </section>
     </main>
+
+    <script>
+        var email = document.getElementById('ilogin').value
+        var senha = document.getElementById('isenha').value
+
+        if (email == '' || email == null || email == undefined){
+            var erro = document.getElementById('erro')
+
+            erro.innerHTML = 'Credenciais invalidos, tente novamente';
+            erro.style.color = 'red'
+        }
+    </script>
 </body>
 </html>
